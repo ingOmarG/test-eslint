@@ -7,7 +7,7 @@
     "start": "webpack-cli serve --open --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:js": "eslint . --ext .js",
+    "lint": "eslint . --ext .js",
     "pre-commit": "npm run lint",
     "prepare": "husky install"
   },
